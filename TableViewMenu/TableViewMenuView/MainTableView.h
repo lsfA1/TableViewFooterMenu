@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainTableView.h
 //  TableViewMenu
 //
 //  Created by 李少锋 on 2018/11/20.
@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-#define UpdateVC @"UpdateVC"
+NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
-
+@interface MainTableView : UITableView
 
 @end
 
+NS_ASSUME_NONNULL_END

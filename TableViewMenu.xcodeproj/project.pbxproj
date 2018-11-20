@@ -15,6 +15,14 @@
 		717AE97521A3EE8D009C9AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE97421A3EE8D009C9AC9 /* main.m */; };
 		717AE97F21A3EE8D009C9AC9 /* TableViewMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE97E21A3EE8D009C9AC9 /* TableViewMenuTests.m */; };
 		717AE98A21A3EE8D009C9AC9 /* TableViewMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE98921A3EE8D009C9AC9 /* TableViewMenuUITests.m */; };
+		717AE99B21A3EEF3009C9AC9 /* MainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE99A21A3EEF3009C9AC9 /* MainTableView.m */; };
+		717AE9A021A3F054009C9AC9 /* DetailViewContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE99D21A3F053009C9AC9 /* DetailViewContentView.m */; };
+		717AE9A121A3F054009C9AC9 /* SegmentTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE99E21A3F053009C9AC9 /* SegmentTitleView.m */; };
+		717AE9A421A3F1CA009C9AC9 /* ContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9A321A3F1CA009C9AC9 /* ContentCell.m */; };
+		717AE9A721A3F25F009C9AC9 /* SegmentWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9A621A3F25F009C9AC9 /* SegmentWebViewVC.m */; };
+		717AE9AA21A3F376009C9AC9 /* SegmentListViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 717AE9A921A3F376009C9AC9 /* SegmentListViewVC.m */; };
+		717AE9AD21A3F7C1009C9AC9 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9AB21A3F7C1009C9AC9 /* 02.png */; };
+		717AE9AE21A3F7C1009C9AC9 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 717AE9AC21A3F7C1009C9AC9 /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		717AE98521A3EE8D009C9AC9 /* TableViewMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		717AE98921A3EE8D009C9AC9 /* TableViewMenuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewMenuUITests.m; sourceTree = "<group>"; };
 		717AE98B21A3EE8D009C9AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717AE99921A3EEF3009C9AC9 /* MainTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableView.h; sourceTree = "<group>"; };
+		717AE99A21A3EEF3009C9AC9 /* MainTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableView.m; sourceTree = "<group>"; };
+		717AE99C21A3F053009C9AC9 /* SegmentTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentTitleView.h; sourceTree = "<group>"; };
+		717AE99D21A3F053009C9AC9 /* DetailViewContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewContentView.m; sourceTree = "<group>"; };
+		717AE99E21A3F053009C9AC9 /* SegmentTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentTitleView.m; sourceTree = "<group>"; };
+		717AE99F21A3F054009C9AC9 /* DetailViewContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewContentView.h; sourceTree = "<group>"; };
+		717AE9A221A3F1CA009C9AC9 /* ContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentCell.h; sourceTree = "<group>"; };
+		717AE9A321A3F1CA009C9AC9 /* ContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentCell.m; sourceTree = "<group>"; };
+		717AE9A521A3F25F009C9AC9 /* SegmentWebViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentWebViewVC.h; sourceTree = "<group>"; };
+		717AE9A621A3F25F009C9AC9 /* SegmentWebViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentWebViewVC.m; sourceTree = "<group>"; };
+		717AE9A821A3F376009C9AC9 /* SegmentListViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentListViewVC.h; sourceTree = "<group>"; };
+		717AE9A921A3F376009C9AC9 /* SegmentListViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentListViewVC.m; sourceTree = "<group>"; };
+		717AE9AB21A3F7C1009C9AC9 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		717AE9AC21A3F7C1009C9AC9 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +123,8 @@
 		717AE96421A3EE8A009C9AC9 /* TableViewMenu */ = {
 			isa = PBXGroup;
 			children = (
+				717AE99821A3EED9009C9AC9 /* img */,
+				717AE99721A3EED9009C9AC9 /* TableViewMenuView */,
 				717AE96521A3EE8A009C9AC9 /* AppDelegate.h */,
 				717AE96621A3EE8A009C9AC9 /* AppDelegate.m */,
 				717AE96821A3EE8A009C9AC9 /* ViewController.h */,
@@ -130,6 +154,34 @@
 				717AE98B21A3EE8D009C9AC9 /* Info.plist */,
 			);
 			path = TableViewMenuUITests;
+			sourceTree = "<group>";
+		};
+		717AE99721A3EED9009C9AC9 /* TableViewMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				717AE99F21A3F054009C9AC9 /* DetailViewContentView.h */,
+				717AE99D21A3F053009C9AC9 /* DetailViewContentView.m */,
+				717AE99C21A3F053009C9AC9 /* SegmentTitleView.h */,
+				717AE99E21A3F053009C9AC9 /* SegmentTitleView.m */,
+				717AE99921A3EEF3009C9AC9 /* MainTableView.h */,
+				717AE99A21A3EEF3009C9AC9 /* MainTableView.m */,
+				717AE9A221A3F1CA009C9AC9 /* ContentCell.h */,
+				717AE9A321A3F1CA009C9AC9 /* ContentCell.m */,
+				717AE9A521A3F25F009C9AC9 /* SegmentWebViewVC.h */,
+				717AE9A621A3F25F009C9AC9 /* SegmentWebViewVC.m */,
+				717AE9A821A3F376009C9AC9 /* SegmentListViewVC.h */,
+				717AE9A921A3F376009C9AC9 /* SegmentListViewVC.m */,
+			);
+			path = TableViewMenuView;
+			sourceTree = "<group>";
+		};
+		717AE99821A3EED9009C9AC9 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				717AE9AC21A3F7C1009C9AC9 /* 01.png */,
+				717AE9AB21A3F7C1009C9AC9 /* 02.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +287,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717AE9AE21A3F7C1009C9AC9 /* 01.png in Resources */,
 				717AE97221A3EE8D009C9AC9 /* LaunchScreen.storyboard in Resources */,
 				717AE96F21A3EE8D009C9AC9 /* Assets.xcassets in Resources */,
 				717AE96D21A3EE8B009C9AC9 /* Main.storyboard in Resources */,
+				717AE9AD21A3F7C1009C9AC9 /* 02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717AE9A021A3F054009C9AC9 /* DetailViewContentView.m in Sources */,
+				717AE9AA21A3F376009C9AC9 /* SegmentListViewVC.m in Sources */,
+				717AE9A421A3F1CA009C9AC9 /* ContentCell.m in Sources */,
+				717AE9A721A3F25F009C9AC9 /* SegmentWebViewVC.m in Sources */,
 				717AE96A21A3EE8B009C9AC9 /* ViewController.m in Sources */,
 				717AE97521A3EE8D009C9AC9 /* main.m in Sources */,
+				717AE9A121A3F054009C9AC9 /* SegmentTitleView.m in Sources */,
+				717AE99B21A3EEF3009C9AC9 /* MainTableView.m in Sources */,
 				717AE96721A3EE8A009C9AC9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
